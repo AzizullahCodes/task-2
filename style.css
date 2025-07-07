@@ -1,0 +1,40 @@
+.navclass{background-color: aqua;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 40px;
+padding-right: 60px;
+border-radius: 10px;}
+
+.btnClass{background-color:red;
+padding: 8px 25px;
+border-radius: 10px;
+display: none;}
+
+.mylogoClass{font-size: 34px;
+font-weight: bold;}
+
+
+.ulclass{display: flex;
+gap:40px;
+flex-wrap: wrap;}
+
+.ulclass li{list-style: none;}
+
+.ulclass li {
+font-size: 25px;}
+/* media query */
+@media(max-width:500px){.ulclass{display: none;}
+.btnClass{display: block;
+margin-left: 5px;}
+.list{display: block;
+position: relative;
+top:100px;
+right: 230px;
+
+}
+.list li{gap:30px;
+font-size: 20px;
+display: flex;
+}
+.resizing{padding-bottom: 110px;}}
